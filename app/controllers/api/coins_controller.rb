@@ -1,7 +1,7 @@
-class Coin < ApplicationRecord
-  def index 
+class Api::CoinsController < ApplicationController
+  def index
   end
-  
+
   def create
   end
 
@@ -10,8 +10,7 @@ class Coin < ApplicationRecord
 
   def update
   end
-  
+
   def destroy
   end
-  
 end
